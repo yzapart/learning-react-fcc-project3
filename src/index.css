@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 90vh;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  padding: 36px;
+}
+
+
+header {
+  margin: 0;
+  height: 10vh;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start
+}
+
+.header--img {
+  width: 7vh;
+  padding-left: 5vw;
+}
+
+.header--title {
+  font-weight: 500;
+  font-size: 4vw;
+  letter-spacing:0em;
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+.header--chapter {
+  text-align: right;
+  font-size: 2.5vw;
+  padding-right: 10vw;
+}
+
+.form {
+  /* background-color: green; */
+  display: grid;
+  justify-content: center;
+  grid-template: min(7vh,10vw) min(7vh,10vw) / 40vw 40vw;
+  gap: min(2vw,2vh);
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+  font-size: min(2vh,5vw);
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color:white;
+  border:none;
+  cursor:pointer;
+  font-size: min(2vh,5vw);
+}
+
+
+.meme {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  position: relative;
+}
+
+.meme--image {
+  max-height: 60vh;
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: min(8vh, 10vw);
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow:
+  3px 3px 0 #000,
+  -3px -3px 0 #000,
+  3px -3px 0 #000,
+  -3px 3px 0 #000,
+  0 3px 0 #000,
+  3px 0 0 #000,
+  0 -3px 0 #000,
+  -3px 0 0 #000,
+  3px 3px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
